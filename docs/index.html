@@ -1,0 +1,231 @@
+<!DOCTYPE HTML>
+<html lang="ja"> 
+<head prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
+    <meta charset="UTF-8" />
+    <title>chibadge (チバッジ) - 千葉ロッテマリーンズのスコアがバッジで確認できるアプリ</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="chibadge（チバッジ）は千葉ロッテマリーンズのスコアをバッジで伝えてくれる世界一ミニマルな野球速報アプリでした。" />
+    <meta name="keywords" content="chibadge, チバッジ, チバッヂ, チバッチ, マリーンズ, アプリ, 君塚史高, きみづかふみたか, 井谷裕紀, いたにひろき, 井谷エンジニア, イタニエンジニア, いたにエンジニア, 宇宙エンジニア" />
+    <meta name="author" content="君塚史高, 井谷裕紀" />
+    <meta name="generator" content="Sublime Text 2" />
+    <meta property="fb:app_id" content="655963077786088" />
+    <meta property="og:title" content="chibadge - 千葉ロッテマリーンズのスコアがバッジで確認できるアプリ" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://chibadge.kimizuka.fm" />
+    <meta property="og:image" content="https://chibadge.kimizuka.fm/assets/img/ogp.png" />
+    <meta property="og:site_name" content="chibadge - 千葉ロッテマリーンズのスコアがバッジで確認できるアプリ" />
+    <meta property="og:description" content="chibadge（チバッジ）は千葉ロッテマリーンズのスコアをバッジで伝えてくれる世界一ミニマルな野球速報アプリでした。" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="ki_230" />
+    <meta name="twitter:creator" content="ki_230" />
+    <meta name="twitter:title" content="chibadge - 千葉ロッテマリーンズのスコアがバッジで確認できるアプリ" />
+    <meta name="twitter:description" content="chibadge（チバッジ）は千葉ロッテマリーンズのスコアをバッジで伝えてくれる世界一ミニマルな野球速報アプリでした。" />
+    <meta name="twitter:image:src" content="https://chibadge.kimizuka.fm/assets/img/ogp.png" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-itunes-app" content="app-id=687676749" />
+    <script src="./assets/js/redirect.js"></script>
+    <!--[if lt IE 9]>
+        <script src="./js/html5.js"></script>
+    <![endif]-->
+    <link rel="canonical" href="https://chibadge.kimizuka.fm" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="apple-touch-icon-precomposed" href="./assets/img/appicon.png" />
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-51070017-1', 'kimizuka.fm');
+      ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div id="fb-root"></div>
+
+    <header id="global-header" class="header">
+        <div class="inner">
+            <div class="sns">
+                <ul class="btns">
+                    <li class="btn fb"><div class="fb-like" data-href="https://chibadge.kimizuka.fm" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></li>
+                    <li class="btn tw"><a href="https://twitter.com/share" class="twitter-share-button" data-dnt="true" data-count="none" data-text="世界一ミニマルな野球速報アプリchibadge（チバッジ）で千葉ロッテマリーンズの試合のスコアを確認しよう。" data-via="">ツイート</a></li>
+                    <li class="btn hatena">
+                        <a href="http://b.hatena.ne.jp/entry/s/chibadge.kimizuka.fm" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a>
+                    </li>
+                </ul>
+            </div>
+            <h1 class="ttl main">chibadge</h1>
+            <h2 class="ttl sub">千葉ロッテマリーンズのスコアがバッジで確認できるアプリ</h2>
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <header class="header">
+            <div class="inner">
+                <h2 class="ttl main">about</h2>
+            </div>
+        </header>
+
+        <div class="dock">
+            <ul class="icons">
+                <li class="icon mini shiro">
+                    <a id="btnShiro" href="#shiro"><img class="img" src="./assets/img/appicon_w.png" width="120" height="120" alt="chibadge shiro" /></a>
+                    <div class="badge shiro">
+                        <div class="inner">
+                            <p class="score"></p>
+                        </div>
+                    </div>
+                    <p class="name">CHIBA</p>
+                </li>
+                <li class="icon mini vs">
+                    <a id="btnVS" href="#vs"><img class="img" src="./assets/img/appicon.png" width="120" height="120" alt="vs" /></a>
+                    <p class="name">VS</p>
+                </li>
+                <li class="icon mini kuro">
+                    <a id="btnKuro" href="#kuro"><img class="img" src="./assets/img/appicon_b.png" width="120" height="120" alt="chibadge kuro" /></a>
+                    <div class="badge kuro">
+                        <div class="inner">
+                            <p class="score"></p>
+                        </div>
+                    </div>
+                    <p class="name">RIVAL</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="txt">
+            <h2 class="ttl main">chibadge（チバッジ）は千葉ロッテマリーンズのスコアをバッジで伝えてくれる世界一ミニマルな野球速報アプリでした。</h2>
+            <p>いつでもどこでもマリーンズのスコアを確認する手段として開発しました。</p>
+            <p>2つのアプリのバッジにマリーンズの現在の得点 / 失点が表示されるため、アプリを開くことなくホーム画面上でマリーンズの試合のスコアが確認できました。</p>
+            <p>アップデート申請がなかなか通過せず、現在はストアから取り下げております。</p>
+        </div>
+    </section>
+
+    <section id="shiro" class="section app shiro">
+        <header class="header">
+            <div class="inner">
+                <h2 class="ttl main">chibadge <span>shiro</span></h2>
+                <div class="fb-share-button" data-href="https://itunes.apple.com/jp/app/id687676749?l=ja&ls=1&mt=8" data-type="button"></div>
+            </div>
+        </header>
+
+        <div class="icon big shiro">
+            <a href="https://itunes.apple.com/jp/app/id687676749?l=ja&ls=1&mt=8" target="_blank">
+                <img class="img" src="./assets/img/appicon_w.png" width="240" height="240" alt="chibadge shiro" />
+            </a>
+            <div class="badge shiro">
+                <div class="inner">
+                    <p class="score"></p>
+                </div>
+            </div>
+        </div>
+
+        <a class="link" href="https://itunes.apple.com/jp/app/id687676749?l=ja&ls=1&mt=8" target="_blank"><img class="img" src="./assets/img/banner.svg" width="270" height="80" alt="ダウンロード" tilte="ダウンロード" /></a>
+
+        <div class="txt">
+            <p>chibadge <span class="small">shiro</span> （チバッジ シロ）はバッジをつかってマリーンズの得点を伝えてくれるアプリでした。</p>
+            <p>単独ではマリーンズの勝敗は判りませんが、
+            大きな数字が表示されていると
+            マリーンズファンをほんのりと嬉しい気持ちにしてくれました。</p>
+            <p class="small note">マリーンズが無得点のときはバッジがつきません。</p>
+            <p class="small note">アップデート申請がなかなか通過せず、現在はストアから取り下げております。</p>
+        </div>
+    </section>
+
+    <section id="vs" class="section app vs">
+        <header class="header">
+            <div class="inner">
+                <h2 class="ttl main">VS icon</h2>
+            </div>
+        </header>
+
+        <div class="icon big vs">
+            <img class="img" src="./assets/img/appicon.png" width="240" height="240" alt="VS" />
+        </div>
+
+        <div class="txt">
+            <p>VSアイコンは試合感をほんのりと演出します。</p>
+            <p class="small note">このページをホーム画面に追加するとVSアイコンになります。</p>
+        </div>
+    </section>
+
+    <section id="kuro" class="section app kuro">
+        <header class="header">
+            <div class="inner">
+                <h2 class="ttl main">chibadge <span>kuro</span></h2>
+                <div class="fb-share-button" data-href="https://itunes.apple.com/jp/app/id687708321?l=ja&ls=1&mt=8" data-type="button"></div>
+            </div>
+        </header>
+
+        <div class="icon big kuro">
+            <a href="https://itunes.apple.com/jp/app/id687708321?l=ja&ls=1&mt=8" target="_blank"><img class="img" src="./assets/img/appicon_b.png" width="240" height="240" alt="chibadge kuro" /></a>
+            <div class="badge kuro">
+                <div class="inner">
+                    <p class="score"></p>
+                </div>
+            </div>
+        </div>
+
+        <a class="link" href="https://itunes.apple.com/jp/app/id687708321?l=ja&ls=1&mt=8" target="_blank"><img class="img" src="./assets/img/banner.svg" width="270" height="80" alt="ダウンロード" tilte="ダウンロード" /></a>
+
+        <div class="txt">
+            <p>chibadge <span class="small">kuro</span> （チバッジ クロ）はバッジをつかってマリーンズの失点を伝えてくれるアプリでした。</p>
+            <p>単独ではマリーンズの勝敗は判りませんが、
+            大きな数字が表示されていると
+            マリーンズファンをほんのりと哀しい気持ちにしてしまいました。</p>
+            <p class="small note">マリーンズが無失点のときはバッジがつきません。</p>
+            <p class="small note">アップデート申請がなかなか通過せず、現在はストアから取り下げております。</p>
+        </div>
+    </section>
+
+    <section id="howtouse" class="section">
+        <header class="header">
+            <div class="inner">
+                <h2 class="ttl main">how to use</h2>
+            </div>
+        </header>
+
+        <img class="img" src="./assets/img/screenshot.png" alt="how to use" />
+
+        <div class="txt">
+            <p>chibadge shiro・VSアイコン・chibadge kuro の3つをホーム画面に並べるだけでいつでもどこでも千葉ロッテマリーンズのスコアを確認できてました。</p>
+            <p class="small note">プッシュ通知の許可が必要でした。</p>
+            <p class="small note">アップデート申請がなかなか通過せず、現在はストアから取り下げております。</p>
+        </div>
+    </section>
+
+    <footer id="global-footer">
+        <p>&copy;copy 2014 TEAM CHIBADGE</p>
+    </footer>
+
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=655963077786088&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+/*
+    project chibadge
+
+    企画: 君塚史高 + 井谷裕紀
+
+    サーバサイドエンジニア: 井谷裕紀
+
+    フロントエンドエンジニア: 君塚史高
+
+    宇宙エンジニア: 井谷裕紀
+
+    デザイナー: 君塚史高
+*/
+    </script>
+</body>
+</html>
